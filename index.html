@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jQuery.js"></script> 
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <h1>Simple calculator</h1>
+                <div class="calculator">
+                    <div class="calculatorbox">
+                        <div class="display">
+                            <div class="pastNumber">
+                                <span class="number">0</span>
+                                <span class="operationDisplay"></span>
+                            </div>
+                            <div class="currentNUmber"></div>
+                        </div>
+                        <div class="nums">
+                            <div><span class="operation" data-action="percentage">%</span></div>
+                            <div><span>A</span></div>
+                            <div><span>B</span></div>
+                            <div><span class="operation" data-action="decimal">.</span></div>
+                            <div><span onclick="number(7)">7</span></div>
+                            <div><span onclick="number(8)">8</span></div>
+                            <div><span onclick="number(9)">9</span></div>
+                            <div><span class="operation" data-action="add">+</span></div>
+                            <div><span onclick="number(4)">4</span></div>
+                            <div><span onclick="number(5)">5</span></div>
+                            <div><span onclick="number(6)">6</span></div>
+                            <div><span class="operation" data-action="substract">-</span></div> 
+                            <div><span onclick="number(1)">1</span></div>
+                            <div><span onclick="number(2)">2</span></div>
+                            <div><span onclick="number(3)">3</span></div>
+                            <div><span class="operation" data-action="multiply">x</span></div>     
+                            <div><span class="operation" data-action="equal">=</span></div>
+                            <div><span onclick="number(0)">0</span></div>
+                            <div><span class="operation" data-action="empty">C</span></div>
+                            <div><span class="operation" data-action="divide">/</span></div>                                                                                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

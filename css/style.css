@@ -1,0 +1,83 @@
+body {
+
+}
+.wrapper {
+    width: 70%;
+
+    margin-left: auto;
+    
+    margin-right: auto;
+}
+.content {
+    float: left;
+
+    width: 100%;
+    
+    padding: 2%;
+    
+    background-color: #9ab5e6;
+}
+.content h1 {
+    margin: 0;
+
+    text-align: center;
+    
+    color: #28ffff;    
+}
+.content .calculator {
+    float: none;
+
+    width: 340px;
+    
+    margin-left: auto;
+    
+    margin-right: auto;    
+    margin-top: 20px;
+}
+.calculatorbox {
+    float: left;
+
+    width: 94%;
+    
+    padding: 3%;
+    
+    background-color: #0a3356;
+}
+.content .calculator .display {
+    float: left;
+
+    width: 100%;
+    
+    height: 37px;
+    
+    background-color: #c5ffa1;
+    
+    margin-bottom: 10px;    
+}
+.content .calculator .nums {
+    
+}
+.content .calculator .nums div {
+    float: left;
+
+    width: 21%;
+    
+    text-align: center;
+    
+    padding: 2%;    
+}
+.content .calculator .nums div span {
+    float: left;
+
+width: 100%;
+
+background-color: #b1b1b1;
+
+height: 24px;
+
+padding-top: 5px;
+
+color: #292966;
+
+cursor: pointer;
+}
